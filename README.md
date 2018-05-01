@@ -1,7 +1,7 @@
 # MINI - UI
 这里是一个小程序UI框架，封装了一些常用组件及样式，方便开发。
 
-> 当前版本使用mpvue转换小程序，开放时使用vue.js，请确保对vue有一定了解。（[vue](https://cn.vuejs.org/v2)）
+> 当前版本使用mpvue转换小程序，开放时使用vue.js，请确保对vue有一定了解。（[vue](https://cn.vuejs.org)）
 
 ## 快速使用
 
