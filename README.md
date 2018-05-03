@@ -5,7 +5,7 @@
 
 ## 快速使用
 
-1. 初始化一个mpvue项目（更多参考[mpvue](http://mpvue.com/mpvue/quickstart/)）
+1.初始化一个mpvue项目（更多参考[mpvue](http://mpvue.com/mpvue/quickstart/)）
 
 现代前端开发框架和环境都是需要 Node.js 的，如果没有的话，请先下载 nodejs 并安装。
 
@@ -32,11 +32,11 @@ $ cnpm install
 
 ```
 
-2. 搭建小程序环境
+2.搭建小程序环境
 
 这一步请去[微信公众平台](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)下载小程序的开发者工具
 
-3. 将小程序与mpvue关联起来开发调试
+3.将小程序与mpvue关联起来开发调试
 
 打开小程序开发者工具，用自己的appid点击新建项目，选择刚才clone下载的初始化项目。进入到小程序开发页面，此时可以把开发者工具自带的编辑器关闭了，只要关心它的调试器就好了。在自己喜欢的编辑器里打开clone下的初始化项目，在当前目录下执行 `npm run dev` ，不要关闭命令行，可以边编写代码边看小程序开发者工具调试啦~
 
@@ -53,7 +53,7 @@ $ cnpm install
 
 ### 组件的引入
 在引用组件的vue文件中
-```vue
+```js
 <template>
  <cells
     className="after_title"
