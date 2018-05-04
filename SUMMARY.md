@@ -8,6 +8,6 @@
     * [Modals 对话框](components/Modals.md)
     * [Preview 卡片概览](components/Preview.md)
 * [Chore  杂项](chore/readme.md)
-    * [Badge  徽章](chore/Dot.md)
+    * [Dot  徽章](chore/Dot.md)
     * [Qrcodes  二维码](chore/Qrcodes.md)
 
