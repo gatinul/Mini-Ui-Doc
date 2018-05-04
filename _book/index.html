@@ -153,7 +153,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="components/Preview.html">
+        <li class="chapter " data-level="1.2.4" data-path="components/Modals.html">
+            
+                <a href="components/Modals.html">
+            
+                    
+                    Modals 对话框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="components/Preview.html">
             
                 <a href="components/Preview.html">
             
@@ -191,6 +204,19 @@
             
                     
                     Badge  徽章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="chore/Qrcodes.html">
+            
+                <a href="chore/Qrcodes.html">
+            
+                    
+                    Qrcodes  二维码
             
                 </a>
             
@@ -280,45 +306,6 @@ $ cnpm install
 <p>3.&#x5C06;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E0E;mpvue&#x5173;&#x8054;&#x8D77;&#x6765;&#x5F00;&#x53D1;&#x8C03;&#x8BD5;</p>
 <p>&#x6253;&#x5F00;&#x5C0F;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#xFF0C;&#x7528;&#x81EA;&#x5DF1;&#x7684;appid&#x70B9;&#x51FB;&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#xFF0C;&#x9009;&#x62E9;&#x521A;&#x624D;clone&#x4E0B;&#x8F7D;&#x7684;&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;&#x3002;&#x8FDB;&#x5165;&#x5230;&#x5C0F;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x9875;&#x9762;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x628A;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#x81EA;&#x5E26;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x5173;&#x95ED;&#x4E86;&#xFF0C;&#x53EA;&#x8981;&#x5173;&#x5FC3;&#x5B83;&#x7684;&#x8C03;&#x8BD5;&#x5668;&#x5C31;&#x597D;&#x4E86;&#x3002;&#x5728;&#x81EA;&#x5DF1;&#x559C;&#x6B22;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x91CC;&#x6253;&#x5F00;clone&#x4E0B;&#x7684;&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;&#xFF0C;&#x5728;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C; <code>npm run dev</code> &#xFF0C;&#x4E0D;&#x8981;&#x5173;&#x95ED;&#x547D;&#x4EE4;&#x884C;&#xFF0C;&#x53EF;&#x4EE5;&#x8FB9;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#x8FB9;&#x770B;&#x5C0F;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#x8C03;&#x8BD5;&#x5566;~</p>
 <p>[&#x5047;&#x88C5;&#x6709;&#x56FE;]</p>
-<h2 id="&#x4F7F;&#x7528;&#x7EC4;&#x4EF6;">&#x4F7F;&#x7528;&#x7EC4;&#x4EF6;</h2>
-<p>&#x4F7F;&#x7528;&#x7EC4;&#x4EF6;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x5F00;&#x53D1;&#x3002;</p>
-<h3 id="&#x4EC0;&#x4E48;&#x662F;&#x7EC4;&#x4EF6;&#xFF1A;">&#x4EC0;&#x4E48;&#x662F;&#x7EC4;&#x4EF6;&#xFF1A;</h3>
-<ol>
-<li>&#x7EC4;&#x4EF6;&#x662F;&#x4E00;&#x4E2A;&#x4E2A;&#x5C01;&#x88C5;&#x597D;&#x7684;&#x4EE3;&#x7801;&#x5355;&#x5143;</li>
-<li>&#x7EC4;&#x4EF6;&#x4F1A;&#x4E00;&#x4E9B;&#x529F;&#x80FD;&#x548C;&#x6837;&#x5F0F;</li>
-<li>&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x53EF;&#x4EE5;&#x4E92;&#x76F8;&#x4F20;&#x9012;&#x6570;&#x636E;</li>
-</ol>
-<h3 id="&#x7EC4;&#x4EF6;&#x7684;&#x5F15;&#x5165;">&#x7EC4;&#x4EF6;&#x7684;&#x5F15;&#x5165;</h3>
-<p>&#x5728;&#x5F15;&#x7528;&#x7EC4;&#x4EF6;&#x7684;vue&#x6587;&#x4EF6;&#x4E2D;</p>
-<pre><code class="lang-js">&lt;template&gt;
- <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">cells</span>
-    <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;after_title&quot;</span>
-    <span class="hljs-attr">:dataSource</span>=<span class="hljs-string">&quot;cellList&quot;</span>
-  &gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span>
-&lt;script&gt;
- <span class="hljs-keyword">import</span> cells <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/components/cells&apos;</span>
-
- data () {
-    <span class="hljs-keyword">return</span> {
-      cellList: [ {
-        title: <span class="hljs-string">&apos;&#x6211;&#x7684;&#x8BA2;&#x5355;&apos;</span>,
-        dot: <span class="hljs-string">&apos;7&apos;</span>
-      }, {
-        title: <span class="hljs-string">&apos;&#x6211;&#x7684;&#x4E8C;&#x7EA7;&#x80FD;&#x4EBA;&apos;</span>,
-        dot: <span class="hljs-string">&apos;3&apos;</span>
-      }, {
-        title: <span class="hljs-string">&apos;&#x6211;&#x7684;&#x4E8C;&#x7EF4;&#x7801;&apos;</span>,
-        dot: <span class="hljs-string">&apos;New&apos;</span>
-      }]
-    }
-  },
- components: {
-    cells
-  },
-<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span>
-</code></pre>
-<p>&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;cells&#x7EC4;&#x4EF6;&#xFF0C;cells&#x7EC4;&#x4EF6;&#x5C01;&#x88C5;&#x4E86;&#x4E00;&#x4E9B;&#x5185;&#x5BB9;&#xFF0C;&#x5177;&#x4F53;&#x53C2;&#x89C1;<a href="components/cell.md">cells</a></p>
 
                                 
                                 </section>
@@ -358,7 +345,7 @@ $ cnpm install
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Intro  介绍","level":"1.1","depth":1,"next":{"title":"Compenents  组件","level":"1.2","depth":1,"path":"components/readme.md","ref":"components/readme.md","articles":[{"title":"Cells  列表","level":"1.2.1","depth":2,"path":"components/Cells.md","ref":"components/Cells.md","articles":[]},{"title":"Inputs 输入框","level":"1.2.2","depth":2,"path":"components/Inputs.md","ref":"components/Inputs.md","articles":[]},{"title":"Lists 详情列表","level":"1.2.3","depth":2,"path":"components/Lists.md","ref":"components/Lists.md","articles":[]},{"title":"Preview 卡片概览","level":"1.2.4","depth":2,"path":"components/Preview.md","ref":"components/Preview.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-05-01T09:40:14.347Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T06:19:04.198Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Intro  介绍","level":"1.1","depth":1,"next":{"title":"Compenents  组件","level":"1.2","depth":1,"path":"components/readme.md","ref":"components/readme.md","articles":[{"title":"Cells  列表","level":"1.2.1","depth":2,"path":"components/Cells.md","ref":"components/Cells.md","articles":[]},{"title":"Inputs 输入框","level":"1.2.2","depth":2,"path":"components/Inputs.md","ref":"components/Inputs.md","articles":[]},{"title":"Lists 详情列表","level":"1.2.3","depth":2,"path":"components/Lists.md","ref":"components/Lists.md","articles":[]},{"title":"Modals 对话框","level":"1.2.4","depth":2,"path":"components/Modals.md","ref":"components/Modals.md","articles":[]},{"title":"Preview 卡片概览","level":"1.2.5","depth":2,"path":"components/Preview.md","ref":"components/Preview.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-05-04T07:55:20.871Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-04T07:57:39.041Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -366,10 +353,6 @@ $ cnpm install
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>

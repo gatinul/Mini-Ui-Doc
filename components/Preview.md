@@ -9,6 +9,7 @@
   :content = "content"
   cannelText = "驳回"
   sureText = "通过"
+  @cannelStyle = "grey_btn"
   @cannel="reject"
   @sure="resolve"
 >
@@ -41,6 +42,8 @@
 |content|概览卡片的中间内容，为数组，包含了多个object，其中每个object中同样有label和text|Array||
 |cannelText|取消按钮的文字，当有取消按钮时必填|String||
 |sureText|确认按钮的文字，当有确认按钮时必填|String||
+|cannelStyle|取消按钮的class名，用来覆盖组件原有样式|String||
+|sureStyle|确认按钮的class名，用来覆盖组件原有样式|String|||
 
 ## 事件
 
